@@ -38,6 +38,7 @@ struct Challenge_1: View {
         .resizable()
         .scaledToFit()
         .border(Color.green, width: 5)
+        .shadow(radius: 15)
   }
 }
 
