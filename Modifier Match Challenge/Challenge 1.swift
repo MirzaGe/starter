@@ -37,8 +37,9 @@ struct Challenge_1: View {
     Image("monster")
         .resizable()
         .scaledToFit()
-        .border(Color.green, width: 5)
         .shadow(radius: 15)
+        .border(Color.green, width: 5)
+        .padding()
   }
 }
 
